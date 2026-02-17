@@ -1,0 +1,7 @@
+Sub ClearFilters()
+    ' Check if the ActiveSheet has AutoFilter mode enabled and filters applied
+    If ActiveSheet.FilterMode Then
+        ' Clear all filters and show all data
+        ActiveSheet.ShowAllData
+    End If
+End Sub
